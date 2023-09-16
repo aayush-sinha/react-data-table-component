@@ -1,5 +1,5 @@
 {
-  "name": "react-data-table-component",
+  "name": "@aayushsinha/react-data-table-component",
   "version": "7.5.4",
   "description": "A simple to use declarative react based data table",
   "main": "dist/index.cjs.js",
@@ -18,8 +18,8 @@
     "react-data-table",
     "react-data-table-component"
   ],
-  "repository": "https://github.com/jbetancur/react-data-table-component",
-  "author": "jbetancur",
+  "repository": "https://github.com/aayush-sinha/react-data-table-component",
+  "author": "",
   "license": "Apache-2.0",
   "prepublish": "tsc",
   "scripts": {
