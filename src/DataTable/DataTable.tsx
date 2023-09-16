@@ -335,7 +335,7 @@ function DataTable<T>(props: TableProps<T>): JSX.Element {
 	}, [data, selectableRowSelected]);
 
 	const visibleRows = selectableRowsVisibleOnly ? tableRows : sortedData;
-	const showSelectAll = persistSelectedOnPageChange || selectableRowsSingle || selectableRowsNoSelectAll;
+	const showSelectAll = selectableRowsSingle || selectableRowsNoSelectAll;
 
 	return (
 		<ThemeProvider theme={currentTheme}>
